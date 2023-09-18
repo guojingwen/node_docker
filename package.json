@@ -1,0 +1,25 @@
+{
+  "name": "node_docker",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "module": "src/server.mjs",
+  "scripts": {
+    "start": "node src/server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guojingwen/node_docker.git"
+  },
+  "keywords": [],
+  "author": "dashu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guojingwen/node_docker/issues"
+  },
+  "homepage": "https://github.com/guojingwen/node_docker#readme",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "yargs-parser": "^21.1.1"
+  }
+}
