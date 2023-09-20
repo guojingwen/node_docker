@@ -1,5 +1,5 @@
 # 指定node镜像的版本
-FROM node:16
+FROM node:16-alpine
 # 声明作者
 MAINTAINER gjw<2315162186@qq.com>
 # 移动当前目录下面的文件到app目录下
