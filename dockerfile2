@@ -1,0 +1,7 @@
+# 不使用 多阶段镜像构建  镜像174MB 
+FROM node:16-alpine
+MAINTAINER gjw<2315162186@qq.com>
+WORKDIR /usr/src/app
+COPY ./ ./
+RUN npm install && npm run build
+CMD cd dist/ && npx http-server -p 4002
